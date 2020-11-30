@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>Hugo Syntax Highlighting | A2N</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Syntax Highlighting example test article that shows how to creating and highlighting code blocks in Hugo-generated site">
+	<link rel="stylesheet" href="/a2ndev.github.io/css/bundle.css">
+	<link rel="stylesheet" href="/a2ndev.github.io/css/themes/dark-red.css">
+	<link rel="icon" href="/a2ndev.github.io/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/a2ndev.github.io/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body class="body kind-page">
+	<header class="header">
+	<a class="logo" href="/a2ndev.github.io">A2N</a>
+	
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		
+		<div class="single block">
+			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2020-11-18T00:00:00Z">November 18, 2020</time>
+<span class="entry__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories:
+		<a class="meta-categories__link" href="/a2ndev.github.io/categories/development/" rel="category">Development</a>
+	</span>
+</span>
+	</div>
+				<h1 class="entry__title">Hugo Syntax Highlighting</h1>
+				<div class="entry__content"><p>You can have code snippets highlighted so that they are easier to read on your site using Chroma, Hugo&rsquo;s default syntax highlighter. It is built in Go lang and is really, really fast – and for the most important parts compatible with Pygments. Chroma takes source code and other structured text and converts it into syntax highlighted HTML, ANSI-coloured text, etc.</p>
+<p>The example below shows a simple HTML code snippet highlighted with the Hugo <a href="https://gohugo.io/content-management/shortcodes/#highlight">highlight</a> built-in shortcode:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<p>The following code snippet was used to achieve that result:</p>
+<pre><code>{{&lt; highlight html &gt;}}
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+{{&lt; /highlight &gt;}}
+</code></pre><p>For more information, see &ldquo;<a href="https://gohugo.io/content-management/syntax-highlighting">Hugo Syntax Highlighting</a>&rdquo; from official Hugo docs.</p></div>
+				
+				<footer class="entry__footer">
+					
+<div class="entry__tags">
+			<a class="entry__tag btn" href="a2ndev.github.io/tags/chroma/">Chroma</a>
+			<a class="entry__tag btn" href="a2ndev.github.io/tags/hugo/">Hugo</a>
+			<a class="entry__tag btn" href="a2ndev.github.io/tags/syntax-highlighting/">Syntax Highlighting</a>
+			<a class="entry__tag btn" href="a2ndev.github.io/tags/html/">HTML</a>
+			<a class="entry__tag btn" href="a2ndev.github.io/tags/markdown/">Markdown</a>
+</div>
+					
+				</footer>
+				
+			</article>
+		</div>
+	</main>
+	
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+	<div class="footer__copyright">© 2020 A2N. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+</body>
+</html>
