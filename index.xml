@@ -17,9 +17,7 @@
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://a2ndev.github.io/2021/01/engineers-are-not-resources/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Engineers do not like to be called/treated as resources. How to treat them?&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;p&gt;Engineers do not like to be called/treated as resources. How to treat them to get highly productive teams?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,15 +27,6 @@
       
       <guid>https://a2ndev.github.io/2020/11/successful-team/</guid>
       <description>&lt;p&gt;What do we find in a &lt;em&gt;&lt;strong&gt;Successful Team&lt;/strong&gt;&lt;/em&gt;? Skillset, Diversity, Raw talent? or something else?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugo Syntax Highlighting</title>
-      <link>https://a2ndev.github.io/2020/11/hugo-syntax-highlighting/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://a2ndev.github.io/2020/11/hugo-syntax-highlighting/</guid>
-      <description>&lt;p&gt;You can have code snippets highlighted so that they are easier to read on your site using Chroma, Hugo&amp;rsquo;s default syntax highlighter. It is built in Go lang and is really, really fast – and for the most important parts compatible with Pygments. Chroma takes source code and other structured text and converts it into syntax highlighted HTML, ANSI-coloured text, etc.&lt;/p&gt;</description>
     </item>
     
   </channel>
