@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on A2N</title>
+    <title>Development on Random thoughts distributed!</title>
     <link>https://a2ndev.github.io/categories/development/</link>
-    <description>Recent content in Development on A2N</description>
+    <description>Recent content in Development on Random thoughts distributed!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://a2ndev.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://a2ndev.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stateful Applications</title>
+      <link>https://a2ndev.github.io/2021/03/stateful-applications/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://a2ndev.github.io/2021/03/stateful-applications/</guid>
+      <description>&lt;p&gt;What is a stateful application? Why do we need this architcture?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Engineers are not resources!</title>
