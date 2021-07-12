@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Product Management on A2N</title>
+    <title>Product Management on Random thoughts distributed!</title>
     <link>https://a2ndev.github.io/tags/product-management/</link>
-    <description>Recent content in Product Management on A2N</description>
+    <description>Recent content in Product Management on Random thoughts distributed!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://a2ndev.github.io/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://a2ndev.github.io/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Engineers are not resources!</title>
       <link>https://a2ndev.github.io/2021/01/engineers-are-not-resources/</link>
