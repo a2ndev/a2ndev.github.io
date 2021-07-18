@@ -11,7 +11,6 @@ body {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.4;
-	color: #ddd;
 	background-color: #1b1b1b;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -674,11 +673,6 @@ button:not(:-moz-focusring):focus > .main-nav__btn-box {
 	.main-nav__link {
 		padding: .625rem .625rem .5rem;
 		border-bottom: 2px solid transparent;
-	}
-
-	.main-nav__link:hover {
-		text-decoration: none;
-		border-color: #666;
 	}
 
 	.main-nav--right {
